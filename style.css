@@ -1,0 +1,44 @@
+body{
+    background-color: #c3c3c3;   /* room background */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.frame{
+    position: relative;
+    background-color: #D8DBDE;   
+    height: 95vh;
+    width: 180vh;
+    border: 3px solid #BFC3C7; 
+    box-shadow:
+        0 8px 18px rgba(0,0,0,0.25),   
+        inset 0 0 8px rgba(0,0,0,0.15);
+    border-radius: 10px;       
+    display: flex;
+    align-items: center;
+    justify-content: center;      
+}
+.content{
+    height: 85vh;
+    width: 170vh;
+    border: 15px solid;
+    box-shadow: 0 8px 18px  black;
+    border-radius: 10px;
+    background-color: #68aaacea;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.startmenue {
+    bottom: 46px;
+    position: absolute;
+    width: 170vh;
+    height: 4vh;
+    border: 2px solid;
+    background-color: #bdbdbd;
+    box-shadow: inset 2px 2px 1px 0px black;
+}
+
