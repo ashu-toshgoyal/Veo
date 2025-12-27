@@ -226,5 +226,8 @@ body{
 }
 
 .box-2{
-  /* display: none; */
+  display: none;
+}
+.box-3{
+  display: none;
 }

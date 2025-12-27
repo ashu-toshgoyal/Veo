@@ -5,6 +5,7 @@ const about = document.getElementById("about");
 const ashu_homepage = document.getElementById("home");
 const homepage = document.getElementById("contentid-1");
 const aboutpage = document.getElementById("contentid-2");
+const expage = document.getElementById("contentid-3");
 
 // 👇 FIXED — About works as Home (no element with id="home")
 // const home = document.getElementById("about");
