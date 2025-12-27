@@ -1,7 +1,7 @@
-/* load Win95 font */
+
 @font-face {
   font-family: "W95Font";
-  src: url("./fonts/W95Font.ttf") format("truetype");
+ src: url("./fonts/W95font.otf") format("opentype");
 }
 
 :root{
@@ -217,7 +217,7 @@ body{
 }
 
 .btn-class:active::before{
-    content: "♣";
+    content: ".";
     font-weight: bold;
 }
 
