@@ -152,7 +152,7 @@ body{
   font-family: var(--onlyfont);
 }
 
-.webpade h1 {
+.name-text {
     color: black;
     font-weight: bold;
     left: 20px;
@@ -164,3 +164,60 @@ body{
 .webpade span{
     font-size: 15px;
 }
+
+.content-box {
+    height: 72.5vh;
+    border: 1px solid #ffffff14;
+    width: 118.7vh;
+    position: absolute;
+    left: 18%;
+    /* height: 100%; */
+    top: 31px;
+    background: white;
+    overflow-y: scroll;
+}
+
+.content-box a{
+    text-decoration: none;
+}
+.content-box a:active{
+    color: white;
+}
+.h-text{
+    position: inherit;
+    /* top: 10px; */
+}
+#hobbie-text {
+    top: 50px;
+    position: relative;
+}
+
+.btn-wrap {
+    position: absolute;
+    top: 20vh;
+    left: 43px;
+    display: flex;
+    flex-direction: column;
+    gap: 36px;
+    /* font-size: 10px; */
+}
+
+.btn-class {
+    background: transparent;
+    border: none;
+    box-shadow: none;
+    padding: 0;
+    margin: 0;
+    color: #551a8b;
+    font-family: var(--onlyfont);
+    font-size: 24px;
+    appearance: none;
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.btn-class:active::before{
+    content: "♣";
+    font-weight: bold;
+}
+
