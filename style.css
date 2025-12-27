@@ -217,7 +217,7 @@ body{
 }
 
 .btn-class:active::before{
-    content: ".";
+    content: ">";
     font-weight: bold;
 }
 
