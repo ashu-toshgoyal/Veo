@@ -2,33 +2,89 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Veo</title>
-    <link rel="stylesheet" href="style.css" />
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Veo</title>
+  <link rel="stylesheet" href="style.css" />
 </head>
 
 <body>
-    <div class="frame">
-        <div class="content">
-            <div class="screen">
-                <div class="startmenue">
-                    <div class="startbutton"><img src="./image.png" alt="" srcset=""
-                            style="height: 37px;width: 102px;position: absolute;left: 25px;top: 1px;"></div>
-                    <div class="app-in-taskbar"><img src="./image-removebg-preview.png" alt="" srcset=""
-                            style="height: 35px;width: 37px;position: absolute;left: 0px;">
-                        <p style="font-size: 14px;position: absolute;left: 33px;top: -3px;font-family: W95Font;font-size: 14px;">
-                            My Showcase - Ashutosh Goyal</p>
-                        
-                    </div>
-                    <div class="timebox"><p id="time">08:54</p></div>
-                </div>
-                <div class="icons"><img src="./ChiDoors/Icons/Facebook.WhatsApp.ico" alt="" class="icon"><p class="icon-name">WhatsApp</p></div>
-            </div>
-        </div>
-    </div>
 
-    <script src="./script.js"></script>
+  <div class="frame">
+    <div class="content">
+      <div class="screen">
+
+        <!-- TASKBAR -->
+        <div class="startmenue">
+          <div class="startbutton">
+            <img src="./image.png"
+                 style="height:37px;width:102px;position:absolute;left:25px;top:1px;">
+          </div>
+
+          <div class="app-in-taskbar">
+            <img src="./ChiDoors/Icons/Microsoft.Edge-Chromium.ico"
+                 style="height:15px;width:17px;position:absolute;left:7px;top:8px;">
+            <p style="position:absolute;left:33px;top:-3px;font-family:W95Font;font-size:14px;">
+              My Showcase - Ashutosh Goyal
+            </p>
+          </div>
+
+          <div class="timebox">
+            <p id="time">08:54</p>
+          </div>
+        </div>
+
+        <!-- DESKTOP ICONS -->
+        <div class="icons">
+          <img src="./ChiDoors/Icons/Facebook.WhatsApp.ico" class="icon">
+          <p class="icon-name">WhatsApp</p>
+        </div>
+
+        <div class="icons">
+          <img src="./ChiDoors/Icons/Generic.Mail.ico" class="icon" style="top:99px;">
+          <p class="icon-name" style="top:125px;left:18px;">Mail</p>
+        </div>
+
+        <div class="icons">
+          <img src="./ChiDoors/Icons/Netflix.ico" class="icon" style="top:185px;">
+          <p class="icon-name" style="top:211px;left:18px;">Netflix</p>
+        </div>
+
+        <div class="icons">
+          <img src="./ChiDoors/Icons/Wikimedia.Wikipedia.ico" class="icon" style="top:271px;">
+          <p class="icon-name" style="top:297px;left:18px;">Wikipedia</p>
+        </div>
+
+        <div class="icons">
+          <img src="./ChiDoors/Icons/Google.Sheets.ico" class="icon" style="top:357px;">
+          <p class="icon-name" style="top:383px;left:18px;">Excel</p>
+        </div>
+
+        <div class="icons">
+          <img src="./ChiDoors/Icons/Microsoft.Edge-Chromium.ico" class="icon" style="top:443px;">
+          <p class="icon-name" style="top:469px;left:18px;">Edge</p>
+        </div>
+
+        <!-- EDGE WINDOW -->
+        <div class="edge-window" id="edgewindow">
+          <div class="titlebar">
+            <img src="./ChiDoors/Icons/Microsoft.Edge-Chromium.ico"
+                 style="height:15px;width:15px;position:absolute;top:5px;left:5px;">
+            <img src="./Windows_95_–_titlebar_buttons_20241129.png"
+                 style="height:27px;width:75px;position:absolute;right:0;">
+            <p id="titlebar-text">My Showcase - Ashutosh Goyal</p>
+          </div>
+
+          <div class="webpade" id="wrtngsection">
+            <p><h1>Ashutosh <br>Goyal <br><span>Think->Build->Improve</span></h1></p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+  <script src="./script.js"></script>
 </body>
 
 </html>
