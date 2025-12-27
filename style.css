@@ -221,3 +221,10 @@ body{
     font-weight: bold;
 }
 
+.box-1{
+  display: none;
+}
+
+.box-2{
+  /* display: none; */
+}
