@@ -5,19 +5,19 @@ let about_btn = document.getElementById("about");
 let xp_btn = document.getElementById("xp");
 let contact_btn = document.getElementById("Contact");
 
-// Ashu sections
+
 let cont_1 = document.getElementById("contentid-1");
 let cont_2 = document.getElementById("contentid-2");
 let cont_3 = document.getElementById("contentid-3");
 let cont_4 = document.getElementById("contentid-4");
 
-// Manya sections
+
 let cont_5 = document.getElementById("contentid-5");
 let cont_6 = document.getElementById("contentid-6");
 let cont_7 = document.getElementById("contentid-7");
 let cont_8 = document.getElementById("contentid-8");
 
-let activeProfile = "ashu";   // default
+let activeProfile = "ashu";   
 
 function updateTime() {
   const d = new Date();
@@ -27,7 +27,7 @@ function updateTime() {
 }
 setInterval(updateTime, 1000);
 
-/* ---------- BOOT SCREEN ---------- */
+
 
 const items = document.querySelectorAll(".boot-item");
 let index = 0;
@@ -71,7 +71,7 @@ document.addEventListener("keydown", (e) => {
   }
 });
 
-/* ---------- HELPERS ---------- */
+
 
 function hideAll() {
   [
@@ -80,7 +80,6 @@ function hideAll() {
   ].forEach(box => box && (box.style.display = "none"));
 }
 
-/* ---------- PROFILE LOADERS ---------- */
 
 function showAshuHome() {
   hideAll();
@@ -100,7 +99,8 @@ function showManyaHome() {
   contact_btn.innerText = "Contact";
 }
 
-/* ---------- NAV BUTTONS ---------- */
+
+
 
 home_btn.addEventListener("click", () => {
   activeProfile === "ashu" ? showAshuHome() : showManyaHome();
