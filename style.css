@@ -9,12 +9,15 @@
 }
 
 body{
-  background:#c3c3c3;
+  /* background:#c3c3c3; */
   display:flex;
   align-items:center;
   justify-content:center;
   height:100vh;
+  background:black;
+  color:#cfcfcf;
   margin:0;
+  font-family: var(--onlyfont);
   user-select: none;
 }
 
@@ -162,10 +165,12 @@ body{
     font-size: 36px;
 }
 
-.webpade span{
+.webpade span {
     font-size: 15px;
+    position: inherit;
+    display: flex;
+    float: left;
 }
-
 .content-box {
     height: 72.5vh;
     border: 1px solid #ffffff14;
@@ -235,6 +240,22 @@ body{
 .box-4{
   display: none;
 }
+.box-5{
+  display: none;
+}
+
+.box-6{
+  display: none;
+}
+
+.box-7{
+  display: none;
+}
+
+.box-8{
+  display: none;
+}
+
 .contact-section {
   font-family: var(--onlyfont);
   border: 2px solid #000;
@@ -245,4 +266,68 @@ body{
 .contact-section a {
   color: #0000aa;
   text-decoration: underline;
+}
+
+.frame{
+  display: none;
+}
+.boot-screen{
+  height:100vh;
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+  align-items:center;
+}
+
+.boot-title{
+  margin-bottom:30px;
+  font-size:18px;
+}
+
+.boot-box{
+  border:1px solid #6f6f6f;
+  padding:18px 28px;
+  min-width:340px;
+}
+
+.boot-info{
+  margin:0 0 10px 0;
+}
+
+.boot-menu{
+  list-style:none;
+  padding-left:0;
+  margin-top:5px;
+}
+
+.boot-item{
+  padding:4px 0;
+}
+
+.boot-item.selected{
+  background:#003399;
+  color:white;
+}
+
+.boot-help{
+  margin-top:14px;
+  font-size:12px;
+  color:#9a9a9a;
+}
+
+.boot-footer{
+  margin-top:30px;
+  font-size:14px;
+}
+
+.boot-cursor{
+  display:inline-block;
+  width:10px;
+  height:16px;
+  background:#cfcfcf;
+  animation: blink .9s steps(1) infinite;
+}
+
+@keyframes blink{
+  50% { opacity:0; }
 }
