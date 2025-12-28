@@ -15,6 +15,7 @@ body{
   justify-content:center;
   height:100vh;
   margin:0;
+  user-select: none;
 }
 
 .frame{
@@ -222,7 +223,7 @@ body{
 }
 
 .box-1{
-  display: none;
+  display: block;
 }
 
 .box-2{
@@ -230,4 +231,18 @@ body{
 }
 .box-3{
   display: none;
+}
+.box-4{
+  display: none;
+}
+.contact-section {
+  font-family: var(--onlyfont);
+  border: 2px solid #000;
+  padding: 12px;
+  background: #ffffff;
+}
+
+.contact-section a {
+  color: #0000aa;
+  text-decoration: underline;
 }
